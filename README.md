@@ -3,10 +3,10 @@
  Translates text into a binary code.
 
 
- Video on [YouTube](https://youtu.be/8j6uFx2THZ4)
+ Video on [YouTube]()
 
- ![PreviewImage](PasswordGenerator.JPG)
+ ![PreviewImage](TranslatorBinary.JPG)
 
  Mobile View
  
- ![PreviewImage](PasswordGeneratorMobile.JPG)
+ ![PreviewImage](TranslatorBinaryMobile.JPG)
