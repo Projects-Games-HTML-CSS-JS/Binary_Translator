@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- icon fa-copy fa-twitter fa-github -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Binary Translator</title>
+</head>
+<body>
+    <!-- card is only required for tablet (larger than 640px) and larger displays -->
+    <div class="card">
+        <div class="container">
+            <header>
+                <h1>BinaryCode Translator</h1>
+                <a href="https://github.com/BellaMrx" class="header-contact fa fa-github" title="GitHub Profile"><span class="header-span">BellaMrx</span></a>
+                <a href="https://twitter.com/bella_mrx" class="header-contact fa fa-twitter" title="Twitter"><span class="header-span">@bella_mrx</span></a>
+            </header>
+            <section class="binaryCodeTranslator">
+                <p>Enter your text and convert it to binary code.</p>
+                <section class="inputText">
+                    <textarea id="text" placeholder="Please enter text here ..."></textarea>
+                </section>
+                <section class="translateText">
+                    <p id="output"></p>
+                    <i class="fa fa-copy" onclick="copyCode()"></i>
+                </section>
+                <section class="translateButton">
+                    <button onclick="convert();">Translate</button>
+                </section>
+            </section>
+        </div>
+    </div>
+<script src="scripts/app.js"></script>
+</body>
+</html>

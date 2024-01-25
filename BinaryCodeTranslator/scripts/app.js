@@ -3,8 +3,12 @@ function convert(){
     var input = document.getElementById("text").value;
     var output = document.querySelector("#output");
     output.innerHTML = "";
+    // checks the length of the input
     for (var i = 0; i < input.length; i++){
-      output.innerHTML += input[i].charCodeAt(0).toString(2) + " ";
+      // charCodeAt() - returns the code of a character, which is a general number
+      // toString(2) - to convert into a binary string
+      // + " " - creates a space between each letter
+      output.innerHTML += input[i].charCodeAt(0).toString(2) + " ";  
     }
 }
 
